@@ -80,6 +80,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output information
-        uses: |
-          echo "Something went wrong"
-          echo "${{ github }}"
+        uses: echo "Something went wrong"
